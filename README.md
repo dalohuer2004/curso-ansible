@@ -6,33 +6,33 @@ Contiene un Dockerfile y los ficheros necesarios para crear una imagen Debian ss
 
 Dentro se puede generar la imagen:
 
-docker build -t debian_ssh .
+`$ docker build -t debian_ssh .`
 
 Ejecutando con:
 
-docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name debian debian_ssh
+`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name debian debian_ssh`
 
 # Directorio Ubuntu ssh
 Contiene un Dockerfile y los ficheros necesarios para crear una imagen Ubuntu ssh.
 
 Dentro se puede generar la imagen:
 
-docker build -t ubuntu_ssh .
+`$ docker build -t ubuntu_ssh .`
 
 Ejecutando con:
 
-docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name ubuntu ubuntu_ssh
+`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name ubuntu ubuntu_ssh`
 
 # Directorio Centos ssh
 Contiene un Dockerfile y los ficheros necesarios para crear una imagen Centos ssh.
 
 Dentro se puede generar la imagen:
 
-docker build -t centos_ssh .
+`$ docker build -t centos_ssh .`
 
 Ejecutando con:
 
-docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name centos centos_ssh
+`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name centos centos_ssh`
 
 
 # Qué es Ansible?
