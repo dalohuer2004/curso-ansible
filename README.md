@@ -10,7 +10,9 @@ Dentro se puede generar la imagen:
 
 Ejecutando con:
 
-`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name debian debian_ssh`
+```
+docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name debian debian_ssh
+```
 
 # Directorio Ubuntu ssh
 Contiene un Dockerfile y los ficheros necesarios para crear una imagen Ubuntu ssh.
@@ -21,7 +23,9 @@ Dentro se puede generar la imagen:
 
 Ejecutando con:
 
-`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name ubuntu ubuntu_ssh`
+```
+docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name ubuntu ubuntu_ssh
+```
 
 # Directorio Centos ssh
 Contiene un Dockerfile y los ficheros necesarios para crear una imagen Centos ssh.
@@ -32,7 +36,9 @@ Dentro se puede generar la imagen:
 
 Ejecutando con:
 
-`docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name centos centos_ssh`
+```
+docker run -d  -e SSH_KEY="$(cat ~/.ssh/id_rsa.pub)" --name centos centos_ssh
+```
 
 
 # Qué es Ansible?
